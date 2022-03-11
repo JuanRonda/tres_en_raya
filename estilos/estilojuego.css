@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+    
+/*
+A los elementos con atributo clase accedemos con el '.'
+*/
+.contenedor {
+    border: 2px solid black;
+    height: 600px;
+    width: 80%;
+    margin-left: 5%;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    background-color: rgb(243, 152, 152);
+}
+/** Tabla */
+table {
+    margin: auto;
+    border: 5px solid rgb(255, 11, 255);
+}
+
+/** Cada celda */
+table tr td {
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color:  #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0
+}
+.boton:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
