@@ -9,11 +9,11 @@ A los elementos con atributo clase accedemos con el '.'
 */
 .contenedor {
     border: 2px solid black;
-    height: 600px;
-    width: 80%;
+    height: 500px;
+    width: 89%;
     margin-left: 5%;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 40px;
     position: relative;
     background-color: rgb(243, 152, 152);
 }
@@ -26,7 +26,7 @@ table {
 /** Cada celda */
 table tr td {
     width: 150px;
-    height: 150px;
+    height: 145px;
     border: 5px solid green;
 }
 
