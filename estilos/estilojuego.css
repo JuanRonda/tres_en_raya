@@ -1,7 +1,12 @@
 h1 {
     color: red;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
+}
+
+body {
+    background-color: #fbdc86;
+    background-image: url('./images/universo.gif');
 }
     
 /*
@@ -15,19 +20,19 @@ A los elementos con atributo clase accedemos con el '.'
     overflow: hidden;
     margin-top: 40px;
     position: relative;
-    background-color: rgb(243, 152, 152);
+    background-color: rgb(2, 255, 129);   
 }
 /** Tabla */
 table {
     margin: auto;
-    border: 5px solid rgb(255, 11, 255);
+    border: 5px solid rgb(255, 11, 11);
 }
 
 /** Cada celda */
 table tr td {
     width: 150px;
     height: 145px;
-    border: 5px solid green;
+    border: 5px solid rgb(255, 9, 214);
 }
 
 .boton {
