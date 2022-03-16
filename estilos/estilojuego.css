@@ -19,8 +19,7 @@ A los elementos con atributo clase accedemos con el '.'
     margin-left: 5%;
     overflow: hidden;
     margin-top: 40px;
-    position: relative;
-    background-color: rgb(2, 255, 129);   
+    position: relative; 
 }
 /** Tabla */
 table {
